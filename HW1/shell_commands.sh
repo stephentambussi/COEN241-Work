@@ -1,10 +1,16 @@
 #QEMU VM commands
 #Note: needs to be run in /Documents directory
-#For install 
-sudo qemu-system-x86_64 -m 4096 -boot d -accel kvm -cpu EPYC -smp cores=3 -boot strict=on -hda ubuntu.img -cdrom ubuntu-20.04.4-live-server-amd64.iso 
+#For install -- to speed it up
+sudo qemu-system-x86_64 -m 4096 -boot d -accel kvm -cpu EPYC -smp cores=4,threads=2 -boot strict=on -hda ubuntu.img -cdrom ubuntu-20.04.4-live-server-amd64.iso 
 
 #To run after install
-sudo qemu-system-x86_64 -m 4096 -boot d -accel kvm -cpu EPYC -smp cores=3,threads=2 -boot strict=on -hda ubuntu.img
+sudo qemu-system-x86_64 -m 4096 -boot d -accel kvm -cpu EPYC -smp cores=2,threads=2 -nic user,hostfwd=tcp::2222-:22 -boot strict=on -hda ubuntu.img
+
+#To ssh from host to VM
+ssh stambussi@127.0.0.1 -p 2222
+
+#To transfer file from host to VM using scp
+sudo scp -P 2222 <source-file> stambussi@127.0.0.1:<destination-path>
 
 #Run sysbench CPU on VM
 sysbench --test=cpu --cpu-max-prime=5000 --time=30 run
