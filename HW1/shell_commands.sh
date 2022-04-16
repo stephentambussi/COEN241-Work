@@ -15,8 +15,10 @@ sudo scp -P 2222 <source-file> stambussi@127.0.0.1:<destination-path>
 #Run sysbench CPU on VM
 sysbench --test=cpu --cpu-max-prime=5000 --time=30 run
 
+#Prepare sysbench file IO test
+sysbench --test=fileio --file-num=128 --file-total-size=10G prepare
 #Run sysbench file IO on VM -- Note: --file-total-size=XXG change the test file size for file IO test
-sysbench --test=fileio --file-test-mode=seqwr run
+sysbench --test=fileio --file-num=128 --file-total-size=10G --file-test-mode=seqrewr run
 #Delete test file on VM
 sysbench --test=fileio cleanup
 #Drop the cache on VM
