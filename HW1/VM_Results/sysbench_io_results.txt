@@ -1,0 +1,319 @@
+QEMU VM Sysbench File IO Test Results
+Low-end VM Configuration Tests: 1 core, 2 threads, 2 GB Mem
+===========================================================
+File IO Test in Sequential Write Mode
+-------------------------------------
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               70.26
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   11.72
+         95th percentile:                        0.15
+         sum:                                 9960.74
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               67.82
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   52.15
+         95th percentile:                        0.16
+         sum:                                 9969.73
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               69.57
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   17.47
+         95th percentile:                        0.15
+         sum:                                 9963.11
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               67.05
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   12.31
+         95th percentile:                        0.16
+         sum:                                 9970.15
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               67.10
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   13.17
+         95th percentile:                        0.16
+         sum:                                 9961.83
+File IO Test in Sequential Read Mode
+-------------------------------------
+TEST 1
+Throughput:
+    read, MiB/s:                  415.31
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    6.80
+         95th percentile:                        0.26
+         sum:                                 9916.02
+TEST 2
+Throughput:
+    read, MiB/s:                  414.02
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    5.29
+         95th percentile:                        0.26
+         sum:                                 9923.11
+TEST 3
+Throughput:
+    read, MiB/s:                  419.80
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   12.22
+         95th percentile:                        0.26
+         sum:                                 9916.49
+TEST 4
+Throughput:
+    read, MiB/s:                  438.50
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   84.75
+         95th percentile:                        0.25
+         sum:                                 9915.84
+TEST 5
+Throughput:
+    read, MiB/s:                  506.10
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                    8.94
+         95th percentile:                        0.22
+         sum:                                 9907.16
+Middle-end VM Configuration Tests: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+File IO Test in Sequential Write Mode
+-------------------------------------
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               68.80
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   15.34
+         95th percentile:                        0.15
+         sum:                                 9968.70
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               64.89
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   12.25
+         95th percentile:                        0.17
+         sum:                                 9961.15
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               65.21
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   12.43
+         95th percentile:                        0.17
+         sum:                                 9964.48
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               63.76
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   15.60
+         95th percentile:                        0.17
+         sum:                                 9966.37
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               64.51
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   20.07
+         95th percentile:                        0.17
+         sum:                                 9967.90
+File IO Test in Sequential Read Mode
+-------------------------------------
+TEST 1
+Throughput:
+    read, MiB/s:                  440.77
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    6.60
+         95th percentile:                        0.26
+         sum:                                 9890.40
+TEST 2
+Throughput:
+    read, MiB/s:                  399.41
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   10.43
+         95th percentile:                        0.27
+         sum:                                 9900.64
+TEST 3
+Throughput:
+    read, MiB/s:                  425.38
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    3.10
+         95th percentile:                        0.27
+         sum:                                 9899.33
+TEST 4
+Throughput:
+    read, MiB/s:                  429.59
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   12.71
+         95th percentile:                        0.27
+         sum:                                 9902.02
+TEST 5
+Throughput:
+    read, MiB/s:                  456.05
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                   40.18
+         95th percentile:                        0.26
+         sum:                                 9902.39
+High-end VM Configuration Tests: 4 cores, 8 threads, 8 GB Mem
+===========================================================
+File IO Test in Sequential Write Mode
+-------------------------------------
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               63.87
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   18.26
+         95th percentile:                        0.17
+         sum:                                 9963.41
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               63.35
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   15.33
+         95th percentile:                        0.17
+         sum:                                 9961.33
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               65.06
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.10
+         max:                                   14.32
+         95th percentile:                        0.17
+         sum:                                 9960.74
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               64.09
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   19.13
+         95th percentile:                        0.17
+         sum:                                 9959.29
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               63.64
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.11
+         max:                                   18.31
+         95th percentile:                        0.17
+         sum:                                 9963.17
+File IO Test in Sequential Read Mode
+-------------------------------------
+TEST 1
+Throughput:
+    read, MiB/s:                  428.42
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    6.12
+         95th percentile:                        0.26
+         sum:                                 9890.75
+TEST 2
+Throughput:
+    read, MiB/s:                  423.47
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   20.12
+         95th percentile:                        0.26
+         sum:                                 9898.61
+TEST 3
+Throughput:
+    read, MiB/s:                  379.42
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   21.42
+         95th percentile:                        0.26
+         sum:                                 9904.21
+TEST 4
+Throughput:
+    read, MiB/s:                  421.89
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    5.14
+         95th percentile:                        0.26
+         sum:                                 9885.73
+TEST 5
+Throughput:
+    read, MiB/s:                  408.90
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    8.87
+         95th percentile:                        0.27
+         sum:                                 9891.97

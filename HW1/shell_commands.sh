@@ -9,8 +9,11 @@ sudo qemu-system-x86_64 -m 4096 -boot d -accel kvm -cpu EPYC -smp cores=2,thread
 #To ssh from host to VM
 ssh stambussi@127.0.0.1 -p 2222
 
-#To transfer file from host to VM using scp
+#To transfer file from host to VM using scp -- command done on host
 sudo scp -P 2222 <source-file> stambussi@127.0.0.1:<destination-path>
+
+#To transfer file from VM to host -- command done on host
+sudo scp -P 2222 stambussi@127.0.0.1:<path-to-file> <destination-path>
 
 #Run sysbench CPU on VM
 sysbench --test=cpu --cpu-max-prime=5000 --time=30 run

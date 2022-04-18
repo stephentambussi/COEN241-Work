@@ -1,0 +1,160 @@
+QEMU VM Sysbench CPU Test Results
+Low-end VM Configuration Tests: 1 core, 2 threads, 2 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  3805.04
+    total number of events:              114157
+TEST 2
+    events per second:  3812.84
+    total number of events:              114391
+TEST 3
+    events per second:  3813.50
+    total number of events:              114411
+TEST 4
+    events per second:  3814.38
+    total number of events:              114438
+TEST 5
+    events per second:  3814.23
+    total number of events:              114433
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  3810.97
+    total number of events:              114336
+TEST 2
+    events per second:  3806.98
+    total number of events:              114217
+TEST 3
+    events per second:  3809.00
+    total number of events:              114276
+TEST 4
+    events per second:  3806.01
+    total number of events:              114188
+TEST 5
+    events per second:  3804.84
+    total number of events:              114153
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second:  3798.84
+    total number of events:              113973
+TEST 2
+    events per second:  3797.96
+    total number of events:              113947
+TEST 3
+    events per second:  3805.69
+    total number of events:              114179
+TEST 4
+    events per second:  3806.51
+    total number of events:              114203
+TEST 5
+    events per second:  3809.43
+    total number of events:              114292
+Middle-end VM Configuration Tests: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  3809.01
+    total number of events:              114282
+TEST 2
+    events per second:  3808.78
+    total number of events:              114270
+TEST 3
+    events per second:  3804.58
+    total number of events:              114153
+TEST 4
+    events per second:  3804.07
+    total number of events:              114135
+TEST 5
+    events per second:  3810.18
+    total number of events:              114318
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  7611.77
+    total number of events:              228366
+TEST 2
+    events per second:  7588.45
+    total number of events:              227665
+TEST 3
+    events per second:  7569.94
+    total number of events:              227111
+TEST 4
+    events per second:  7557.10
+    total number of events:              226723
+TEST 5
+    events per second:  7510.62
+    total number of events:              225330
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second:  7510.81
+    total number of events:              225338
+TEST 2
+    events per second:  7516.76
+    total number of events:              225518
+TEST 3
+    events per second:  7475.20
+    total number of events:              224271
+TEST 4
+    events per second:  7476.49
+    total number of events:              224310
+TEST 5
+    events per second:  7478.48
+    total number of events:              224369
+High-end VM Configuration Tests: 4 cores, 8 threads, 8 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  3812.77
+    total number of events:              114397
+TEST 2
+    events per second:  3814.91
+    total number of events:              114454
+TEST 3
+    events per second:  3816.89
+    total number of events:              114513
+TEST 4
+    events per second:  3816.84
+    total number of events:              114511
+TEST 5
+    events per second:  3815.37
+    total number of events:              114467
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  7618.02
+    total number of events:              228553
+TEST 2
+    events per second:  7624.43
+    total number of events:              228746
+TEST 3
+    events per second:  7613.57
+    total number of events:              228420
+TEST 4
+    events per second:  7615.23
+    total number of events:              228481
+TEST 5
+    events per second:  7599.07
+    total number of events:              227985
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second: 10914.25
+    total number of events:              327449
+TEST 2
+    events per second: 10918.89
+    total number of events:              327586
+TEST 3
+    events per second: 10926.22
+    total number of events:              327811
+TEST 4
+    events per second: 10937.29
+    total number of events:              328139
+TEST 5
+    events per second: 10937.55
+    total number of events:              328152
