@@ -1,0 +1,160 @@
+Docker Container Sysbench CPU Test Results
+Low-end Container Configuration Tests: 1 core, 2 threads, 2 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  3480.87
+    total number of events:              104432
+TEST 2
+    events per second:  3481.16
+    total number of events:              104440
+TEST 3
+    events per second:  3481.05
+    total number of events:              104436
+TEST 4
+    events per second:  3481.32
+    total number of events:              104445
+TEST 5
+    events per second:  3481.77
+    total number of events:              104459
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  3481.48
+    total number of events:              104451
+TEST 2
+    events per second:  3484.67
+    total number of events:              104546
+TEST 3
+    events per second:  3480.50
+    total number of events:              104421
+TEST 4
+    events per second:  3492.06
+    total number of events:              104768
+TEST 5
+    events per second:  3481.22
+    total number of events:              104443
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second:  3481.18
+    total number of events:              104443
+TEST 2
+    events per second:  3480.62
+    total number of events:              104428
+TEST 3
+    events per second:  3480.61
+    total number of events:              104426
+TEST 4
+    events per second:  3481.41
+    total number of events:              104453
+TEST 5
+    events per second:  3484.32
+    total number of events:              104539
+Middle-end Container Configuration Tests: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  3480.42
+    total number of events:              104424
+TEST 2
+    events per second:  3481.02
+    total number of events:              104442
+TEST 3
+    events per second:  3481.50
+    total number of events:              104450
+TEST 4
+    events per second:  3481.15
+    total number of events:              104440
+TEST 5
+    events per second:  3480.06
+    total number of events:              104413
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  6950.69
+    total number of events:              208533
+TEST 2
+    events per second:  6930.41
+    total number of events:              207924
+TEST 3
+    events per second:  6893.61
+    total number of events:              206820
+TEST 4
+    events per second:  6853.63
+    total number of events:              205619
+TEST 5
+    events per second:  6830.84
+    total number of events:              204937
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second:  6840.10
+    total number of events:              205216
+TEST 2
+    events per second:  6833.80
+    total number of events:              205026
+TEST 3
+    events per second:  6828.35
+    total number of events:              204865
+TEST 4
+    events per second:  6825.90
+    total number of events:              204791
+TEST 5
+    events per second:  6822.83
+    total number of events:              204698
+High-end Container Configuration Tests: 4 cores, 8 threads, 8 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  3478.41
+    total number of events:              104364
+TEST 2
+    events per second:  3479.26
+    total number of events:              104390
+TEST 3
+    events per second:  3479.91
+    total number of events:              104409
+TEST 4
+    events per second:  3478.34
+    total number of events:              104362
+TEST 5
+    events per second:  3482.50
+    total number of events:              104486
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  6919.10
+    total number of events:              207597
+TEST 2
+    events per second:  6940.40
+    total number of events:              208224
+TEST 3
+    events per second:  6949.31
+    total number of events:              208504
+TEST 4
+    events per second:  6884.56
+    total number of events:              206547
+TEST 5
+    events per second:  6888.90
+    total number of events:              206677
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second: 10065.28
+    total number of events:              301976
+TEST 2
+    events per second: 10083.13
+    total number of events:              302513
+TEST 3
+    events per second: 10110.19
+    total number of events:              303325
+TEST 4
+    events per second: 10087.04
+    total number of events:              302628
+TEST 5
+    events per second: 10071.13
+    total number of events:              302157

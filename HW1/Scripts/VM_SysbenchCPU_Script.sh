@@ -6,7 +6,7 @@
 #Get current directory
 dir=$(pwd)
 #Check if file exists and create it if it does not
-filename=$dir/sysbench_cpu_results.txt
+filename=$dir/vm_sysbench_cpu_results.txt
 if [ ! -f $filename ]
 then
     touch $filename
