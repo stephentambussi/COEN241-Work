@@ -3,7 +3,7 @@ import urllib
 
 def handle(req):
     urlstring = urllib.unquote(req).decode('utf8').strip('payload=')
-    response = json.loads(urlstring)
+    #response = json.loads(urlstring)
     data = {
         "attachments": [
             {
@@ -13,8 +13,8 @@ def handle(req):
                 "color": "#36a64f",
                 "pretext": "Ahh yeah! Great choice, COEN 241 is absolutely amazing!",
                 "author_name": "",
-                "author_link": <INSERT YOUR GITHUB REPO URL>,
-                "author_icon": <INSERT YOUR GITHUB REPO PROFILE IMG URL>,
+                "author_link": "https://github.com/stephentambussi/COEN241-Work.git",
+                "author_icon": "",
                 "title": "COEN 241",
                 "title_link": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/course-descriptions/",
                 "text": "Head over to COEN 241",
