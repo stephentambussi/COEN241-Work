@@ -3,6 +3,10 @@ import urllib
 
 def handle(req):
     urlstring = urllib.unquote(req).decode('utf8').strip('payload=')
+    #Test to see how slack-interactive can react to different inputs
+    #substring = "google"
+    #if substring in req:
+    #    print("Google website")
     #response = json.loads(urlstring)
     data = {
         "attachments": [
