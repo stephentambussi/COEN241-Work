@@ -21,9 +21,8 @@ Stephen Tambussi - COEN241 - HW2
 "footer_icon": "https://a.slack-edge.com/45901/marketing/img/_rebrand/meta/slack_hash_256.png", "pretext": "Ahh yeah! Great choice, COEN 241 is absolutely amazing!", "fallback": "Required plain-text summary of the attachment.", 
 "thumb_url": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/course-descriptions/", "author_icon": ""}]}
 
-5)  To pass different arguments to the functions you could either change the value in the [-d "some_value"] curl option or you
+5)  To pass different arguments to the functions you could either change the value in the [-d "some_value"] curl command option or you
     can change the value in the [echo "some_value"] echo command that is piped with the faas-cli invoke command. 
 
 6)  One way to change the slack-interactive function would be to string compare the "req" parameter of the handle method.
-    If the "req" is equal to some string or url, then the function could output a different data then it normally does.
-    TODO: test this on the slack-interactive function
+    If the "req" is equal to some string or url, then the function could output different data then it normally does.

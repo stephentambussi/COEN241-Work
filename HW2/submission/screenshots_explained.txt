@@ -1,1 +1,15 @@
-TODO: explain the screenshots
+Stephen Tambussi - COEN241 - HW2
+
+InvokeFiglet.png:
+    In this screenshot, the figlet function is invoked. This function comes from the OpenFaaS store and creates ASCII banners from a text input. 
+    The function is first deployed and then inspected. Finally, the function is passed a string argument and invoked.
+
+journalctl_faasd.png:
+    This command gets the content of the systemd (system and service manager) journal. In this particular instance, the faasd log is queried with only the 40 most recent lines displayed.
+
+OpenFaaS_Gateway.png:
+    This screenshot shows the OpenFaaS gateway UI that displays the currently deployed functions. Each of the function tabs will open a page specific to the function
+    and give the status along with other statistics of the function.
+
+invoke_slackrequest_slackinteractive.png:
+    This screenshots shows the invocation of the slack-request and slack-interactive functions. These functions were each invoked twice, using both the curl method and the faas-cli method.
